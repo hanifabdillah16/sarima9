@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import datetime
-from statsmodels.tsa.statespace.sarimax import SARIMAX
 import pickle
 
 pickle_in = open("model.pkl","rb")
